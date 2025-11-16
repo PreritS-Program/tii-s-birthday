@@ -47,16 +47,24 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        romantic: {
+          pink: "hsl(var(--romantic-pink))",
+          purple: "hsl(var(--romantic-purple))",
+          blue: "hsl(var(--romantic-blue))",
         },
+        glow: {
+          pink: "hsl(var(--glow-pink))",
+          purple: "hsl(var(--glow-purple))",
+          blue: "hsl(var(--glow-blue))",
+        },
+        candle: {
+          flame: "hsl(var(--candle-flame))",
+          gold: "hsl(var(--candle-gold))",
+        },
+      },
+      fontFamily: {
+        script: ['Dancing Script', 'cursive'],
+        elegant: ['Playfair Display', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
