@@ -101,9 +101,10 @@ const CakePage = () => {
         </p>
 
         {/* Birthday Cake */}
-        <div className="relative inline-block">
-          {/* Candles */}
-          <div className="flex justify-center gap-8 mb-8">
+        <div className="flex justify-center w-full">
+          <div className="relative inline-block">
+            {/* Candles */}
+            <div className="flex justify-center gap-8 mb-1">
             {[...Array(totalCandles)].map((_, i) => (
               <div
                 key={i}
@@ -178,6 +179,7 @@ const CakePage = () => {
               ))}
             </div>
           )}
+          </div>
         </div>
       </div>
 
