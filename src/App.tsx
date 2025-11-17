@@ -22,7 +22,7 @@ const App = () => (
         <MusicPlayer />
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/Tii-s-Birthday">
           <Routes>
             <Route path="/" element={<CoverPage />} />
             <Route path="/cake" element={<CakePage />} />
