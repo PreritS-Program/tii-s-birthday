@@ -71,6 +71,10 @@ All colors MUST be HSL.
     cursor: none;
   }
 
+  *, *:hover {
+    cursor: none !important;
+  }
+
   /* Custom cursor styles */
   .cursor-dot {
     pointer-events: none;
