@@ -134,7 +134,7 @@ const CakePage = () => {
           </div>
 
           {/* Cake layers */}
-          <div className="space-y-0 glow-soft">
+          <div className="flex flex-col items-center space-y-0 glow-soft">
             {/* Top layer - frosting */}
             <div className="w-80 h-20 bg-gradient-to-b from-pink-300/60 to-pink-400/40 rounded-t-3xl border-4 border-pink-400/60 relative overflow-hidden shadow-xl">
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-shimmer" />
