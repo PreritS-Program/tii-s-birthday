@@ -22,7 +22,7 @@ const App = () => (
         <MusicPlayer />
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/Tii-s-Birthday">
+        <BrowserRouter basename={import.meta.env.PROD ? "/Tii-s-Birthday" : ""}>
           <Routes>
             <Route path="/" element={<CoverPage />} />
             <Route path="/cake" element={<CakePage />} />
