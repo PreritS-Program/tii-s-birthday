@@ -48,7 +48,7 @@ export const MusicPlayer = () => {
     <div className="fixed top-6 right-6 z-50 flex items-center gap-3 bg-card/80 backdrop-blur-md px-4 py-3 rounded-full border border-border/50 glow-soft">
       <audio
         ref={audioRef}
-        src="/audio/a-thousand-years.mp3"
+        src="audio/a-thousand-years.mp3"
         loop
         preload="auto"
       />
